@@ -5,7 +5,7 @@ const app = express();
 const port = 3001;
 
 const db = mysql.createPool({
-  host: 'localhost',
+  host: 'https://backendcontadortags.vercel.app',
   user: 'root',
   password: 'lucaskika123',
   database: 'contadortags'
